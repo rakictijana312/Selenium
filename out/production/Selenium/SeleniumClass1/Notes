@@ -1,0 +1,70 @@
+Selenium Class 1
+
+What is software testing?
+-Indentity corrections and quality of application
+
+How many ways we can actually test?
+1) Manual
+2) Automation
+
+When we go for Automation?
+-after manuel testing passed
+-when enviroment is stable
+-analyze out test suite and choose our automation tools
+
+What other automation tools do we know about?
+-Selenium, Cucumber, TestingNG, UFT/QTP, Katalon Studio, Serenity(jako jen sada popularan in industry)
+
+Level of testing?
+-Unit testing
+-System testing
+-Acceptence testing
+
+Types of software testing?
+-Funcional testing:
+       -Smoke test
+       -Regtresion test
+       -Sanity check
+-Non Fuctional tasting:
+       -Performance testing
+       -Security testing
+
+What is Selenium?
+Selenium is set of tools which helps us to automate web applications.
+It is manualy used to preform functional testing.
+
+Selenium Components?
+-Selenium IDE- Integrated development Enviroment
+-Selenium Rc- Remote Control
+-Selenium Grid
+-Selenium WebDriver(samo se ovaj koristi in industrty)
+
+What is Selenium WebDriver?
+-Its open source automation tool which allows you to preform actions on a wabe page
+-WebDriver is an interface.
+
+Advantages of Selenium WebDriver:
+-open sourece/free
+-OS independent
+-supports multiple languages: Rubby, Java, C#, Python
+-it works with multiple different browser
+
+Disadvantages?
+-can not automate desktop applications
+-no tehnical support
+-canot verify images/pictures
+-doesnot have inbuilt reporting feature
+-cannot test CAPTCHA(robot test) and barcods as well
+
+close() vs quit():
+
+-close will close current tab,
+-quit will quit all browser
+
+navigate() vs get()
+-get() will wait for whole page to load vs
+-navigate() will not
+-navigate() will move back, forward, refresh
+-get() will not keep the history of your browser whearses navigate() will
+
+
