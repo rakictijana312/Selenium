@@ -1,0 +1,36 @@
+Class 6
+
+Alerts:
+Alert is pop up message. Alert takes complete focus  on our main page that we are
+working on
+We can not proceed until is handled.
+
+3 types of alerts:
+1.web based alerts /html alerts - we can simply inspect and preform needed actions
+2.Javascript alerts/browser alerts - we can handle these alerts by using swichTo() method in Selenium, we can not inspect them
+3.Windows based alerts - we can not handle them with Selenium
+
+Types of JavaScript alerts:
+1. simple alert - click on(accept, getText only methods can be used)
+2. confirmation alert - we can cancel or click on (all accept sendKey can be used)
+3.prompt alert - enter text and click ok(
+
+To handle JS alerts we have 4 methods:
+1. accept();
+2.dismiss();
+3.getAText();
+4.sendKeys
+Interview:
+How do you handle alerts in Selenium?
+We handle alerts by using Alert interface
+
+Frames:
+Frame is separate independent window in our webpage
+Frame allow devs to present multiple views in one page
+
+3 ways to interact with frames:
+ 1. by index //try to use as less posible because can break your code
+ 2. by name or id
+ 3. by WebElement
+ in alerts  -- switch to alert manually and swich back automaticly
+ in frames -- swich to frames maualy and we swich back manully
