@@ -2,8 +2,11 @@
   <library name="commons-io-2.8.0">
     <CLASSES>
       <root url="jar://$USER_HOME$/Downloads/commons-io-2.8.0.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/Driver/commons-io-2.8.0.jar!/" />
     </CLASSES>
-    <JAVADOC />
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/Downloads/commons-io-2.8.0-bin.zip!/commons-io-2.8.0/docs" />
+    </JAVADOC>
     <SOURCES />
   </library>
 </component>
