@@ -25,7 +25,7 @@ public class LoginTestWithPageFactory {
             e.printStackTrace();
 
         }
-       String welcomeText= dashboard.
+
 
 
 

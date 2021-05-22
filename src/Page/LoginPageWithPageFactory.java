@@ -17,7 +17,7 @@ public class LoginPageWithPageFactory extends CommonMethods {
     @FindBy(css="input#btnLogin")
     public WebElement loginBtn;
 
-    @FindBy(xpath="//table[")
+   // @FindBy(xpath="//table")
 
     public LoginPageWithPageFactory(){
         PageFactory.initElements(driver, this);
