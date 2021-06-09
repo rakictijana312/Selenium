@@ -27,9 +27,9 @@ public class JavaScriptExicutorDemo {
         JavascriptExecutor js= (JavascriptExecutor) driver;
         js.executeScript("arguments[0].style.backgroundColor='red'", pass);
 
-        Thread.sleep(2000);
-        //to click on webelement -login
-        js.executeScript("arguments[0].click()", logIn);
+//        Thread.sleep(2000);
+//        //to click on webelement -login
+//        js.executeScript("arguments[0].click()", logIn);
 
 
 

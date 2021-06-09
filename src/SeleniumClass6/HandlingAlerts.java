@@ -15,6 +15,8 @@ public class HandlingAlerts {
         WebDriver driver = new ChromeDriver();
         driver.get(url);
         driver.manage().window().maximize();
+
+
         WebElement simpleAlertButton= driver.findElement(By.id("alert"));//locate alert
         simpleAlertButton.click();
         Thread.sleep(2000);

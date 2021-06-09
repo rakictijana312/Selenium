@@ -16,8 +16,8 @@ public class JavaScriptExicutorDemo3 {
         //open new tab
         JavascriptExecutor js = (JavascriptExecutor) driver;
         js.executeScript("window.open();");
-        WebElement search = driver.findElement(By.name("q"));
-        search.sendKeys("dfsfsf");
+//        WebElement search = driver.findElement(By.name("q"));
+//        search.sendKeys("dfsfsf");
 
 
     }

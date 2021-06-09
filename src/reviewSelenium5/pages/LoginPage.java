@@ -1,6 +1,6 @@
 package reviewSelenium5.pages;
 
-import TestBase.BaseClass;
+import SeleniumClass12.TestBase.BaseClass;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 

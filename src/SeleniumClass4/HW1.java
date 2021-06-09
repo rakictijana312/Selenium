@@ -16,14 +16,14 @@ public class HW1 {
         System.setProperty("webdriver.chrome.driver", "drivers/chromedriver.exe");
         WebDriver driver = new ChromeDriver();
         driver.get("http://hrm.syntaxtechs.net/humanresources/symfony/web/index.php/dashboard");
-        driver.findElement(By.cssSelector("input[id='txtUsername']")).sendKeys(" Admin");
+        driver.findElement(By.cssSelector("input[id='txtUsername']")).sendKeys("Admin");
         Thread.sleep(3000);
         driver.findElement(By.cssSelector("input[name='txtPassword']")).sendKeys("Hum@nhrm123");
         Thread.sleep(3000);
         driver.findElement(By.cssSelector("input.button")).click();
 
         //Logo is displayed
-        WebElement syntaxLogo= driver.findElement(By.cssSelector("img[src$='syntax.png']"));
+        WebElement syntaxLogo= driver.findElement(By.cssSelector("img[src$='syntax.png']"));//locirati logo
         syntaxLogo.isDisplayed();
         Boolean logoDisplayed = syntaxLogo.isDisplayed();
         System.out.println(logoDisplayed);

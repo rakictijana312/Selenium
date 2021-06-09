@@ -15,11 +15,12 @@ public class DragAndDropDemo {
         WebDriver driver = new ChromeDriver();
         driver.get(url);
 
-        driver.switchTo().frame(0);
+        driver.switchTo().frame(0);//prvo ide driver switch zato sto su ova dva boxa smestena u jedan
+        //veliki box pa zato
         WebElement draggable = driver.findElement(By.id("draggable"));
         WebElement droppable = driver.findElement(By.id("droppable"));
+
         Actions action = new Actions(driver);
-        //DAJE mi greskuuuu
         action.dragAndDrop(draggable, droppable).perform();
        // action.clickAndHold(draggable).moveToElement(droppable).release().build().perform();
 

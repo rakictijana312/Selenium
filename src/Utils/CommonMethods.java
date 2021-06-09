@@ -1,5 +1,6 @@
 package Utils;
 
+import SeleniumClass12.TestBase.BaseClass;
 import TestBase.BaseClass;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;

@@ -21,6 +21,7 @@ public class RightandDoubleClicActions {
         action.contextClick(rightClickButton).perform();
         action.contextClick(rightClickButton).perform();
         WebElement editOption = driver.findElement(By.xpath("//span[text() = 'Edit'] "));
+
         //editOption.click();
         action.click(editOption).perform();
         Alert alert = driver.switchTo().alert();
